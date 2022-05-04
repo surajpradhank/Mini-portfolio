@@ -4,5 +4,6 @@ jobs:
     build-app:
         runs-on: ubuntu-latest
         steps:
-            - uses: action/Checkout@v2
-            - run: tree
+            - name: Checkout
+              uses: actions/Checkout@v2
+              run: tree
