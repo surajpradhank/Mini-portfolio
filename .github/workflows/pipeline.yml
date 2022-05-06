@@ -12,4 +12,3 @@ jobs:
               vercel-token: ${{ secrets.VERCEL_TOKEN }}
               vercel-org-id: ${{ secrets.ORGID}}
               vercel-project-id: ${{ secrets.PROJECTID}}
-              working-directory: ./sub-directory
